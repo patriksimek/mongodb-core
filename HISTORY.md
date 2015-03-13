@@ -1,3 +1,23 @@
+1.1.16 03-06-2015
+-----------------
+- rejectUnauthorized parameter is set to true for ssl certificates by default instead of false.
+
+1.1.15 03-04-2015
+-----------------
+- Removed check for type in replset pickserver function.
+
+1.1.14 02-26-2015
+-----------------
+- NODE-374 correctly adding passive secondaries to the list of eligable servers for reads
+
+1.1.13 02-24-2015
+-----------------
+- NODE-365 mongoDB native node.js driver infinite reconnect attempts (fixed issue around handling of retry attempts)
+
+1.1.12 02-16-2015
+-----------------
+- Fixed cursor transforms for buffered document reads from cursor.
+
 1.1.11 02-02-2015
 -----------------
 - Remove the required setName for replicaset connections, if not set it will pick the first setName returned.
